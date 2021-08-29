@@ -1,0 +1,40 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #0D1523;
+    padding: 0;
+    margin: 0;
+    color: #fff;
+}
+
+.navbar h2 {
+    flex: 1;
+    /* background-color: lightgreen; */
+}
+
+.list {
+    display: flex;
+    /* background-color: snow; */
+    flex: 2;
+}
+
+.icons {
+    /* background-color: khaki; */
+    display: flex;
+    flex: 1;
+
+}
+
+.icons li:hover {
+    border: 2px solid #21375e;
+    border-radius: 5px;
+    background: #21375e;
+
+}
+
+.icons li,
+.list li {
+    margin-right: 2rem;
+    list-style: none;
+    cursor: pointer;
+}
